@@ -1,0 +1,17 @@
+# POST http://localhost:1337/api/accounts HTTP/1.1
+# content-type: multipart/form-data
+
+
+# {
+#   "title": "cash5",
+#   "description": "cdcjjcj",
+#   "type": "debit",
+#   "nature": "current_asset"
+# }
+
+
+
+
+# GET http://localhost:1337/api/accounts HTTP/1.1
+
+GET http://localhost:1337/api/general-journals HTTP/1.1

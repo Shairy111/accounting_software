@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ledgers",
+  "info": {
+    "singularName": "ledger",
+    "pluralName": "ledgers",
+    "displayName": "ledger",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "debit": {
+      "type": "json"
+    },
+    "credit": {
+      "type": "json"
+    },
+    "nature": {
+      "type": "string"
+    }
+  }
+}
